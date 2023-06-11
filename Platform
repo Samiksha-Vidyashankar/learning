@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+      }
+
+      .profile-button {
+        text-align: right;
+      }
+
+      .profile-button a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+      }
+
+      .profile-button a:hover {
+        background-color: #fff;
+        color: #333;
+      }
+
+      nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      nav ul li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      .panel {
+        background-color: #f2f2f2;
+        text-align: center;
+        padding: 50px;
+      }
+
+      .text {
+        text-align: start;
+      }
+
+      .courses {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+      }
+
+      .course {
+        background-color: #f9f9f9;
+        padding: 20px;
+      }
+
+      .course img {
+        width: 100%;
+      }
+
+      .images {
+        width: 400px;
+        height: 300px;
+      }
+
+      .btn {
+        display: inline-block;
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 10px;
+      }
+
+      .btn:hover {
+        background-color: #555;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .top {
+        color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Online Learning Platform</h1>
+
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="profile-button">
+        <a href="#">Profile</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="panel">
+        <h2>Welcome to our Learning Platform</h2>
+        <p>Start your learning journey today</p>
+        <a href="#" class="btn">Explore Courses</a>
+      </section>
+      <b></b><b></b>
+
+      <section class="text">
+        <h1>Popular Courses →</h1>
+      </section>
+
+      <section class="courses">
+        <div class="course">
+          <img
+            src="/Sample Project/programming course.webp"
+            alt="Course 1"
+            class="images"
+          />
+          <h3>Web Development Course</h3>
+          <p>3-Weeks Course | Starting at Rs. 499/-</p>
+          <a href="#" class="btn">Enroll Now</a>
+        </div>
+
+        <div class="course">
+          <img
+            src="/Sample Project/design course.webp"
+            alt="Course 2"
+            class="images"
+          />
+          <h3>Web Design Course</h3>
+          <p>2-Weeks Course | Starting at Rs. 399/-</p>
+          <a href="#" class="btn">Enroll Now</a>
+        </div>
+
+        <div class="course">
+          <img src="/Sample Project/AiMl.webp" alt="Course 3" class="images" />
+          <h3>AI-ML Course</h3>
+          <p>3-Weeks Course | Starting at Rs. 499/-</p>
+          <a href="#" class="btn">Enroll Now</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <h4>&copy All Rights Reserved</h4>
+      <a href="#top" class="top">Go Back to Top</a>
+    </footer>
+  </body>
+</html>
